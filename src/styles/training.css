@@ -1,0 +1,41 @@
+.training{
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ebebeb;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.training>label{
+    color: #616161;
+    font-size: 15px;
+    font-weight: 600;
+}
+.training>span{
+    color: #B4B4B4;
+    font-size: 11px;
+}
+.or{
+    color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.or>hr{
+    width: 50%;
+    background-color: #EBEBEB;
+    border: solid 1px;
+}
+
+.training input{
+    outline: 0;
+    box-shadow: 0px 0px 3px 0px #bbbbbb;
+    border: 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.or span{
+    color: #AAAAAA;
+}

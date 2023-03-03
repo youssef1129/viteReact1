@@ -1,0 +1,26 @@
+.container{
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top>div{
+  display: flex;
+  gap: 20px;
+}
+.top>label{
+  color: #7C7C7C;
+  font-size: 18px;
+}
+
+.section1{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr auto auto;
+}
